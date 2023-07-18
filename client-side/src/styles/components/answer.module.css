@@ -1,0 +1,23 @@
+
+
+.answer{
+  width: 60px;
+    padding: 2em 4em;
+    background-color: #ececec;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+    border-end-end-radius: 50px;
+    position: fixed;
+    top: 22px;
+    left: 40px;
+}
+
+.visible {
+  opacity: 1 !important;
+  transition: opacity 0.5s ease-in-out !important;
+}
+
+.invisible {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}

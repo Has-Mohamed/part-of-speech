@@ -1,0 +1,134 @@
+:root {
+  --app_section_blue: #a4c4e0;
+  --app_section_pink: #f7aac8;
+  --app_section_green: #c9e1ab;
+  --app_section_orange: #fbdeaa;
+
+  --app_primary_blue: #016bb0;
+  --app_primary_pink: #e51e74;
+  --app_primary_green: #79b519;
+  --app_primary_orange: #f5aa02;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 100vh;
+  background: no-repeat;
+  background-image: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../src/assets/images/top_icons_bg_right.png);
+  background-size: contain;
+  background-position: center;
+}
+/* 
+
+/src
+  /components
+    /atoms
+      /Button
+        Button.js
+      /Input
+        Input.js
+      /Link
+        Link.js
+      ...
+    /molecules
+      /ProductCard
+        ProductCard.js
+      /CartItem
+        CartItem.js
+      ...
+    /organisms
+      /Header
+        Header.js
+      /Footer
+        Footer.js
+      /ProductList
+        ProductList.js
+      /Cart
+        Cart.js
+      ...
+    /templates
+      /Home
+        Home.js
+      /ProductPage
+        ProductPage.js
+      /CartPage
+        CartPage.js
+      ...
+    /pages
+      /HomePage
+        HomePage.js
+      /ProductDetailsPage
+        ProductDetailsPage.js
+      /CartPage
+        CartPage.js
+      ...
+  /styles
+    /atoms
+      /Button
+        Button.module.css
+      /Input
+        Input.module.css
+      /Link
+        Link.module.css
+      ...
+    /molecules
+      /ProductCard
+        ProductCard.module.css
+      /CartItem
+        CartItem.module.css
+      ...
+    /organisms
+      /Header
+        Header.module.css
+      /Footer
+        Footer.module.css
+      /ProductList
+        ProductList.module.css
+      /Cart
+        Cart.module.css
+      ...
+    /templates
+      /Home
+        Home.module.css
+      /ProductPage
+        ProductPage.module.css
+      /CartPage
+        CartPage.module.css
+      ...
+    /pages
+      /HomePage
+        HomePage.module.css
+      /ProductDetailsPage
+        ProductDetailsPage.module.css
+      /CartPage
+        CartPage.module.css
+      ...
+  /redux
+    store.js
+    actions
+      cart.js
+      products.js
+      ...
+    reducers
+      cartReducer.js
+      productReducer.js
+      ...
+  /api
+    index.js
+    products.js
+    cart.js
+    ...
+  /utils
+    apiHelpers.js
+    ...
+  App.js
+  index.js
+  ... */

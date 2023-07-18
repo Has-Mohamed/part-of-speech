@@ -1,0 +1,116 @@
+.practice_container {
+  width: 100%;
+  margin: auto 20%;
+}
+
+.title {
+  font-size: 38px;
+  color: #000000bd;
+}
+.sub_title {
+  font-size: 20px;
+
+}
+.word {
+  text-transform: capitalize;
+  margin-top:0 ;
+}
+.word_bottom {
+  animation: word-bottom 2s;
+  margin-top: -3.62rem
+}
+.word_top {
+  animation: word-top 2s;
+  margin-top:0 ;
+
+
+}
+
+.word_container {
+  box-shadow: 0 0 11px 0px rgb(10 10 10 / 34%);
+  border-radius: 50px;
+  padding: 0.5em;
+  background-color: white;
+  font-size: 24px;
+  color: rgb(0 0 0 / 87%);
+  height: 35px;
+  overflow: hidden;
+}
+
+
+
+.button_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+  column-gap: 1em;
+}
+
+.button {
+  border: 2px solid;
+  padding: 8px 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button_verb {
+  background-color: var(--app_section_blue);
+  border-color: var(--app_primary_blue);
+}
+.button_noun {
+  background-color: var(--app_section_pink);
+  border-color: var(--app_primary_pink);
+}
+.button_adjective {
+  background-color: var(--app_section_green);
+  border-color: var(--app_primary_green);
+}
+.button_adverb {
+  background-color: var(--app_section_orange);
+  border-color: var(--app_primary_orange);
+}
+
+.progress {
+  margin-top: 48px;
+  padding-inline: 4em;
+}
+progress {
+  width: 100%;
+  height: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Style the progress bar background */
+progress::-webkit-progress-bar {
+  background-color: #ddd;
+}
+
+progress::-moz-progress-bar {
+  background-color: #ddd;
+}
+
+/* Style the progress bar value */
+progress::-webkit-progress-value {
+  background-color: #79b519;
+}
+
+progress::-moz-progress-value {
+  background-color: #79b519;
+}
+
+
+
+
+
+@keyframes word-top{
+  0% {margin-top: -3.62rem;}
+  100% {margin-top: 0;}
+}
+@keyframes word-bottom{
+  0% {margin-top: 0;}
+  100% {margin-top: -3.62rem;}
+ 
+}
