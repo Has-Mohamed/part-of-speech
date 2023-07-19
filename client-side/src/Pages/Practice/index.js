@@ -18,7 +18,6 @@ function Practice() {
   // fetch word list from server
   const getWordList = async () => {
     const response = await fetchWordList();
-    console.log(response);
     selectedItem_top.current = response.word_list[0].word;
     setWordList(response.word_list);
   };

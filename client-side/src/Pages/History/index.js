@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { studentRank } from "../../service/rank";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "../../styles/Pages/History/history.module.css";
-import CountUp from "react-countup";
 
 function History(props) {
   const [rankLog, setRankLog] = useState([]);
 
-  const { state } = useLocation();
   const navigate = useNavigate();
 
   // get student rank beased on his score
