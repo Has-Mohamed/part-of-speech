@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('nagwa:server');
+var debug = require('debug')('part-of-speech:server');
 var http = require('http');
 
 /**

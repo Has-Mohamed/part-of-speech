@@ -26,15 +26,15 @@ To start the server-side application, run:
 
 On MacOS or Linux, run the app with this command:
 
- `DEBUG=nagwa:* npm start`
+ `DEBUG=part-of-speech:* npm start`
 
 On Windows Command Prompt, use this command:
 
- `set DEBUG=nagwa:* & npm start`
+ `set DEBUG=part-of-speech:* & npm start`
 
 On Windows PowerShell, use this command:
 
- ` $env:DEBUG='nagwa:*'; npm start`
+ ` $env:DEBUG='part-of-speech:*'; npm start`
 
 This will start the server-side application. The server will be running on http://localhost:4000.
 
@@ -61,5 +61,5 @@ If you're having trouble getting the application to work, here are some steps yo
 - Make sure you have installed all the necessary dependencies by running `npm install` in the root directory of your project and in the `client` directory.
 - Check the console output for any error messages or warnings.
 - Check that the port specified in your server-side code matches the port specified in your client-side code.
-- Check that your server-side code is actually starting when you run `DEBUG=nagwa:* npm start`.
+- Check that your server-side code is actually starting when you run `DEBUG=part-of-speech:* npm start`.
 - Try running the server-side and client-side applications separately to see if they work individually.

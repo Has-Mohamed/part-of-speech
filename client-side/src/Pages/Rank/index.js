@@ -16,7 +16,6 @@ function Rank(props) {
     const rank = await studentRank(state.score);
     setRank(rank.rank);
 
-    debugger;
     const storedRanks = localStorage.getItem("studentRankLog") ?? "[]";
     const parsedRank = JSON.parse(storedRanks);
     const date = new Date().toLocaleString();
